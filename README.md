@@ -150,9 +150,9 @@ Those repos are private, so this is the only place it shows.
 <summary>More projects</summary>
 
 - [OptionsPricing](https://github.com/veetihietasalo/OptionsPricing): Black-Scholes pricer with Greeks and a price heatmap. Bun + Express API, React frontend.
-- [Finite-Element-Analysis](https://github.com/veetihietasalo/Finite-Element-Analysis): finite element analysis in Python. Tetrahedral mesh, materials in SQLite, boundary conditions and forces, solves for node displacements.
+- [Finite-Element-Analysis](https://github.com/veetihietasalo/Finite-Element-Analysis): an old math-inspired side project, finite element analysis in Python. Tetrahedral mesh, materials in SQLite, boundary conditions and forces, solves for node displacements.
 - Gridfleet: a roguelite arena shooter in Godot where you win by arranging polyomino modules on your ship's grid, not by aiming. Early, private.
-- Earlier work: Java back ends ([BookStore](https://github.com/veetihietasalo/BookStore), [Album-Store](https://github.com/veetihietasalo/Album-Store)) and JavaScript web and mobile apps.
+- Earlier work: Spring Boot back ends ([BookStore](https://github.com/veetihietasalo/BookStore), [s23demo](https://github.com/veetihietasalo/s23demo)) and React and React Native apps ([personalTrainerAPIsite](https://github.com/veetihietasalo/personalTrainerAPIsite), [carDealerShip](https://github.com/veetihietasalo/carDealerShip)).
 
 </details>
 
