@@ -1,6 +1,6 @@
 # Veeti Hietasalo
 
-AI engineer in Espoo, Finland. I take AI from prototype into daily business use: LLM and RAG applications, valuation models and optimisation, integrated on Azure.
+AI engineer in Espoo, Finland. I take AI from prototype into daily business use: LLM and RAG applications, valuation models and optimisation, integrated on Azure.  Member of the NVIDIA Inception programme.
 
 **Open to full-time AI / ML engineer roles** in Finland, Amsterdam, Stockholm and London. EU citizen. [LinkedIn](https://www.linkedin.com/in/vvvhietasalo/)
 
@@ -15,7 +15,7 @@ AI engineer in Espoo, Finland. I take AI from prototype into daily business use:
 - Integration into company processes with Azure and Power Automate, results on BI dashboards
 - Presented the work to CEOs and advisors at KONE, Winthrop Technologies and Bronto Skylift
 
-**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources. Member of the NVIDIA Inception programme.
+**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources.
 
 ## Side projects
 
