@@ -1,6 +1,6 @@
 # Veeti Hietasalo
 
-AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I measure whether it works: LLM and RAG applications, open-weights models fine-tuned from 7B to 40B mixture-of-experts, and valuation models with calibrated uncertainty.
+AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I measure whether it works: LLM and RAG applications, open-weights models fine-tuned from 7B to 40B mixture-of-experts, and valuation models with calibrated uncertainty. Member of the NVIDIA Inception programme.
 
 **Open to full-time AI / ML engineer roles** in Finland, Amsterdam, Stockholm and London. EU citizen. [LinkedIn](https://www.linkedin.com/in/vvvhietasalo/)
 
@@ -14,7 +14,7 @@ AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I me
 - Integrated into company processes with Azure and Power Automate, results on Power BI dashboards
 - Presented the work to CEOs and advisors at KONE, Winthrop Technologies and Bronto Skylift
 
-**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–). A map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources. Member of the NVIDIA Inception programme.
+**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources.
 
 - Apartment price model for 163 capital-region postal areas, from open Statistics Finland data. Its 80% split-conformal bands covered 78.6% on held-out years 2023–2025, with a 4.4% median error, ahead of both naive baselines
 - LLM extraction of maintenance items from Finnish housing-company plans: OCR, structured output cited to its source page, a bake-off across model providers, and recorded responses so tests run offline
