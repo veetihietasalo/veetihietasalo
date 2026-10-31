@@ -6,6 +6,14 @@ AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I me
 
 ## Experience
 
+**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–) · [mad3d.ai](https://mad3d.ai). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources.
+
+- **Mad Maps**, live in production behind an access code: every plot in Espoo with flood, noise, protection and heritage layers, and building facts from the national Ryhti register
+- Apartment price model for 163 capital-region postal areas, from open Statistics Finland data. Its 80% split-conformal bands covered 78.6% on held-out years 2023–2025, with a 4.4% median error, ahead of both naive baselines. Price paths to 2030 with zero-shot TimesFM and conformal bands
+- LLM extraction of maintenance items from Finnish housing-company plans: OCR, structured output cited to its source page, a bake-off across model providers, and recorded responses so tests run offline
+- Data-licence and LLM-endpoint policies written for legal review; real documents only go to approved model endpoints, checked in code before every call
+- One person running engineering by directing parallel AI coding agents through reviewed pull requests, CI and evaluations
+
 **AI Engineer, UM Yhtiöt** (2024–2026). A group whose companies include Powerlift (lifting, transport, logistics) and Proinfra (infrastructure and energy construction).
 
 - RAG applications on large language models, used by 15 employees
@@ -13,12 +21,6 @@ AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I me
 - Automated valuation models (AVM) for machinery, and a prototype marketplace for lifting services
 - Integrated into company processes with Azure and Power Automate, results on Power BI dashboards
 - Presented the work to CEOs and advisors at KONE, Winthrop Technologies and Bronto Skylift
-
-**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources.
-
-- Apartment price model for 163 capital-region postal areas, from open Statistics Finland data. Its 80% split-conformal bands covered 78.6% on held-out years 2023–2025, with a 4.4% median error, ahead of both naive baselines
-- LLM extraction of maintenance items from Finnish housing-company plans: OCR, structured output cited to its source page, a bake-off across model providers, and recorded responses so tests run offline
-- Real documents only go to approved model endpoints, checked in code before every call
 
 ## Projects
 
