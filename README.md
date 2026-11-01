@@ -1,61 +1,147 @@
-# Veeti Hietasalo
+<!--
+  DRAFT, not committed. Profile README for github.com/veetihietasalo/veetihietasalo.
 
-AI engineer in Espoo, Finland. I take AI from prototype into daily use, and I measure whether it works: LLM and RAG applications, open-weights models fine-tuned from 7B to 40B mixture-of-experts, and valuation models with calibrated uncertainty. Member of the NVIDIA Inception programme.
+  Contribution cards: for private work to show up, the GitHub setting
+  Settings > Public profile > Contributions & activity > "Include private contributions on my profile"
+  MUST be turned on. With it on, the streak card, the activity graph and the contributions badge count
+  private contributions (as anonymous counts; no private repo names or code are exposed).
+  github-readme-stats / top-langs: count_private and include_all_commits are set, but the public
+  Vercel instance can only see private data for the account whose token it runs with, so private
+  commits/languages are only counted if you self-host it with your own PAT (PAT_1).
+-->
 
-**Open to full-time AI / ML engineer roles** in Finland, Amsterdam, Stockholm and London. EU citizen. [LinkedIn](https://www.linkedin.com/in/vvvhietasalo/)
+# Hi, I'm Veeti Hietasalo 👋
 
-## Experience
+**AI Engineer · LLM applications · Applied machine learning** · Espoo, Finland
 
-**Founder, [Mad Tech Oy](https://mad3d.ai)** (2024–) · [mad3d.ai](https://mad3d.ai). Mad Tech builds a map of the built environment in Finland: every building, plot, zoning and market fact in the capital region from open data, keyed to IDs, with an AI that only quotes its sources.
+[![Email](https://img.shields.io/badge/Email-veeti.hietasalo%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeti.hietasalo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vvvhietasalo-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/vvvhietasalo/)
+[![GitHub](https://img.shields.io/badge/GitHub-veetihietasalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/veetihietasalo)
+[![Website](https://img.shields.io/badge/Web-mad3d.ai-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mad3d.ai)
 
-- **Mad Maps**, live in production behind an access code: every plot in Espoo with flood, noise, protection and heritage layers, and building facts from the national Ryhti register
-- Apartment price model for 163 capital-region postal areas, from open Statistics Finland data. Its 80% split-conformal bands covered 78.6% on held-out years 2023–2025, with a 4.4% median error, ahead of both naive baselines. Price paths to 2030 with zero-shot TimesFM and conformal bands
-- LLM extraction of maintenance items from Finnish housing-company plans: OCR, structured output cited to its source page, a bake-off across model providers, and recorded responses so tests run offline
-- Data-licence and LLM-endpoint policies written for legal review; real documents only go to approved model endpoints, checked in code before every call
-- One person running engineering by directing parallel AI coding agents through reviewed pull requests, CI and evaluations
+![Open to AI/ML roles](https://img.shields.io/badge/Open_to_AI%2FML_roles-Finland_%C2%B7_Amsterdam_%C2%B7_Stockholm_%C2%B7_London-2EA44F?style=flat-square&logo=handshake&logoColor=white)
+![EU citizen](https://img.shields.io/badge/EU_citizen-003399?style=flat-square&logo=europeanunion&logoColor=FFCC00)
+![Founder Mad Tech Oy](https://img.shields.io/badge/Founder-Mad_Tech_Oy-111111?style=flat-square)
+![NVIDIA Inception](https://img.shields.io/badge/NVIDIA_Inception-Member_(Mad_Tech_Oy)-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Profile views](https://komarev.com/ghpvc/?username=veetihietasalo&style=flat-square&color=blue&label=Profile+views)
 
-**AI Engineer, UM Yhtiöt** (2024–2026). A group whose companies include Powerlift (lifting, transport, logistics) and Proinfra (infrastructure and energy construction).
+AI engineer who takes AI from prototype into daily use and measures whether it works: LLM and RAG applications, open-weights coding models fine-tuned with LoRA / QLoRA (including mixture-of-experts), and valuation models with calibrated uncertainty.
 
-- RAG applications on large language models, used by 15 employees
-- Fleet route optimisation that cut fuel costs by about 23%
-- Automated valuation models (AVM) for machinery, and a prototype marketplace for lifting services
-- Integrated into company processes with Azure and Power Automate, results on Power BI dashboards
-- Presented the work to CEOs and advisors at KONE, Winthrop Technologies and Bronto Skylift
+## 🧰 Skills
 
-## Projects
+**Languages**
 
-| | |
-| :--- | :--- |
-| **MadMDL** (private, demo on request) | A local coding agent and fine-tuning pipeline: its own tool-use harness, a hidden-test eval suite run over several seeds with confidence intervals, and fine-tunes from 7B to 40B mixture-of-experts on verified agent trajectories (bf16 LoRA on the fused expert weights of the MoEs). Results below |
-| [MiniHFT](https://github.com/veetihietasalo/MiniHFT) | Educational C++20 project: NASDAQ ITCH 5.0 into an L3 order book. A full trading day, 268.7M messages, in about 90 s, 50 ns p50 per hop between pinned threads[^bench] |
-| [MonteCarloCpp](https://github.com/veetihietasalo/MonteCarloCpp) | Monte Carlo option pricer, C++20, devirtualized and measured on three compilers |
-| [OptionsPricing](https://github.com/veetihietasalo/OptionsPricing) | Black-Scholes with Greeks, Bun + React |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-## Model evaluations
+**AI / ML & LLM**
 
-From MadMDL. Each task is graded by a hidden test the agent never sees, written into the workspace only after it finishes; a run passes when that test exits 0.
+![LLM applications](https://img.shields.io/badge/LLM_applications-412991?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-retrieval--augmented_generation-5A29E4?style=flat-square)
+![LoRA / QLoRA](https://img.shields.io/badge/LoRA_%2F_QLoRA-fine--tuning_incl._MoE-FF6F00?style=flat-square)
+![Evaluation design](https://img.shields.io/badge/Evaluation_design-hidden_tests_%2B_CIs-0E8A16?style=flat-square)
+![Conformal prediction](https://img.shields.io/badge/Conformal_prediction-6E40C9?style=flat-square)
+![Qwen](https://img.shields.io/badge/Qwen-open--weights-615CED?style=flat-square)
+![TimesFM](https://img.shields.io/badge/TimesFM-zero--shot_forecasting-4285F4?style=flat-square&logo=google&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+
+**Frameworks**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square&logo=openapiinitiative&logoColor=white)
+
+**Cloud & Data**
+
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=icloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![NVIDIA A100](https://img.shields.io/badge/NVIDIA_A100_80GB-rented_GPUs-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+**Tools / DevOps**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![ThreadSanitizer](https://img.shields.io/badge/ThreadSanitizer-tested-555555?style=flat-square&logo=llvm&logoColor=white)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=py,ts,js,java,cpp,react,express,bun,spring,mongodb,kafka,azure,aws,docker,git,github,cmake&perline=17" alt="Skill icons" />
+</p>
+
+**Certifications**
+
+![Anthropic Claude Code in Action](https://img.shields.io/badge/Anthropic-Claude_Code_in_Action_(2026)-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Anthropic AI Fluency](https://img.shields.io/badge/Anthropic-AI_Fluency-191919?style=flat-square&logo=anthropic&logoColor=white)
+
+**Spoken languages**
+
+![Finnish](https://img.shields.io/badge/Finnish-native-003580?style=flat-square)
+![English](https://img.shields.io/badge/English-full_professional-012169?style=flat-square)
+![Swedish](https://img.shields.io/badge/Swedish-working_knowledge-006AA7?style=flat-square)
+
+## 🎬 MadMDL demo
+
+[![MadMDL demo](assets/madmdl_demo_thumb.png)](https://github.com/veetihietasalo/veetihietasalo/blob/master/assets/madmdl_demo.mp4)
+
+**MadMDL**: a local AI coding agent and fine-tuning pipeline. Own tool-use harness, a hidden-test eval suite run over several seeds with confidence intervals, and LoRA / QLoRA fine-tunes on verified agent trajectories.
+▶️ [Watch the demo (2:05)](https://github.com/veetihietasalo/veetihietasalo/blob/master/assets/madmdl_demo.mp4)
+
+*Demo segment is a labelled replay of a logged run; repo is private, demo on request.*
 
 | Model | Setup | Result |
 | :--- | :--- | :--- |
-| Qwen3.6-35B-A3B (MoE) | 79 tasks × 3 seeds, A100 80GB | **214/237 runs, 90.3%** (95% CI 85.9–93.4) |
-| Qwen3-Coder-30B-A3B (MoE) | same 79 tasks × 2 seeds, A100 80GB | 131/158 runs, 82.9% (95% CI 76.3–88.0) |
-| **madmdl-7b**, my QLoRA fine-tune of Qwen2.5-Coder-7B | 60-task acceptance suite, against its stock same-quant base | **38/60 vs 21/60**; on held-out tasks 4/10 vs 2/10 |
-| Qwen2.5-Coder-7B, q5 on a laptop | 10-task suite | 5/10 single attempt, 8/10 with one retry |
-| Qwen2.5-Coder-14B, q4 on a laptop | 10-task suite | 7/10 with retries |
-| Claude Sonnet, same harness | 10-task suite | 10/10 |
+| Qwen3.6-35B-A3B (MoE) | 79 shared tasks × 3 seeds | **214/237 runs, 90.3%** |
+| Qwen3-Coder-30B-A3B (MoE) | same 79 tasks × 2 seeds | 131/158 runs, 82.9% |
+| **madmdl-7b**, QLoRA fine-tune of Qwen2.5-Coder-7B | 60-task acceptance suite vs. its base | **38/60 vs 21/60**; held out 4/10 vs 2/10 |
 
-The 35B leads the 30B by 7.4 points (95% CI +0.6 to +14.7), so the gap is real; on the held-out tasks alone it is +8.0 with a CI from −3.4 to +21.2, within noise. The fine-tuned 7B's held-out set is only 10 tasks, so its +2 there is directional.
+Qwen3.6-35B-A3B leads Qwen3-Coder-30B-A3B by **+7.4 points (95% CI +0.6 to +14.7)**. The 7B's held-out set is only 10 tasks, so that gain is directional.
+
+## 🚀 Other projects
+
+| | |
+| :--- | :--- |
+| [MiniHFT](https://github.com/veetihietasalo/MiniHFT) | Educational C++20: replays a full NASDAQ ITCH 5.0 trading day (268.7M messages) into an order-by-order book in about 90 s; lock-free queue at 50 ns median per hop, checked with ThreadSanitizer |
+| [MonteCarloCpp](https://github.com/veetihietasalo/MonteCarloCpp) | Monte Carlo option pricer in C++20, multithreaded, with a CUDA path |
+| [OptionsPricing](https://github.com/veetihietasalo/OptionsPricing) | Black-Scholes pricer with all five Greeks. TypeScript, Bun, Express and React |
+
+## 📊 GitHub activity
+
+<!-- Requires "Include private contributions on my profile" to be ON for private work to be counted. -->
+
+![Contributions (last year)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fveetihietasalo%3Fy%3Dlast&query=%24.total.lastYear&label=Contributions%20(last%20year)&color=2EA44F&style=flat-square&logo=github)
+
+<!-- Activity graph: the official github-readme-activity-graph.vercel.app instance returns HTTP 402 (Nov 2026),
+     so this points at a working public mirror of the same project. Swap to your own Vercel deployment when possible. -->
+[![Activity graph, last 31 days](https://github-readme-activity-graph-two.vercel.app/graph?username=veetihietasalo&days=31&theme=github-compact&hide_border=true)](https://github.com/veetihietasalo)
+
+[![GitHub streak](https://streak-stats.demolab.com/?user=veetihietasalo&hide_border=true)](https://git.io/streak-stats)
+
+<p>
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=veetihietasalo&theme=github" alt="GitHub stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=veetihietasalo&theme=github" alt="Top languages" />
+</p>
+
+<!-- github-readme-stats: the public github-readme-stats.vercel.app instance returns HTTP 503 (Nov 2026).
+     To count private commits/languages, deploy your own copy on Vercel with a PAT_1 token (repo + read:user)
+     and replace YOUR-DEPLOYMENT below, then use these instead of the summary cards above:
+<img height="165" src="https://YOUR-DEPLOYMENT.vercel.app/api?username=veetihietasalo&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="GitHub stats" />
+<img height="165" src="https://YOUR-DEPLOYMENT.vercel.app/api/top-langs/?username=veetihietasalo&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
+-->
+
+<sub>Contribution count, activity graph and streak include private contributions; the stats and language cards cover public repositories only.</sub>
 
 I build with coding agents (Claude Code): I set the direction, design the evaluations and check the measurements.
-
-## Skills
-
-LLMs and RAG · LoRA / QLoRA fine-tuning incl. MoE · evaluation design · conformal prediction · Python · TypeScript · SQL · Java · Azure · Power Automate · Power BI · AWS · Docker · Git
-
-Finnish (native) · English (full professional) · Swedish (working knowledge)
-
-## Education
-
-BBA, Business Information Technology (Full-Stack Software Development), Haaga-Helia University of Applied Sciences. Expected July 2027.
-
-[^bench]: AMD Ryzen 9 9900X3D, WSL2, about 10 ns timer overhead included. Details in the [MiniHFT README](https://github.com/veetihietasalo/MiniHFT#-performance).
