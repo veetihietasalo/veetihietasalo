@@ -3,11 +3,8 @@
 
   Contribution cards: for private work to show up, the GitHub setting
   Settings > Public profile > Contributions & activity > "Include private contributions on my profile"
-  MUST be turned on. With it on, the streak card, the activity graph and the contributions badge count
+  MUST be turned on. With it on, the streak card and the contributions badge count
   private contributions (as anonymous counts; no private repo names or code are exposed).
-  github-readme-stats / top-langs: count_private and include_all_commits are set, but the public
-  Vercel instance can only see private data for the account whose token it runs with, so private
-  commits/languages are only counted if you self-host it with your own PAT (PAT_1).
 -->
 
 # Hi, I'm Veeti Hietasalo 👋
@@ -26,6 +23,8 @@
 ![Profile views](https://komarev.com/ghpvc/?username=veetihietasalo&style=flat-square&color=blue&label=Profile+views)
 
 AI engineer who takes AI from prototype into daily use and measures whether it works: LLM and RAG applications, open-weights coding models fine-tuned with LoRA / QLoRA (including mixture-of-experts), and valuation models with calibrated uncertainty.
+
+I build with coding agents AND MYSELF: I set the direction, design the evaluations and check the measurements.
 
 ## 🧰 Skills
 
@@ -91,7 +90,7 @@ AI engineer who takes AI from prototype into daily use and measures whether it w
 
 ![Finnish](https://img.shields.io/badge/Finnish-native-003580?style=flat-square)
 ![English](https://img.shields.io/badge/English-full_professional-012169?style=flat-square)
-![Swedish](https://img.shields.io/badge/Swedish-working_knowledge-006AA7?style=flat-square)
+![Swedish (understanding, basic speaking)](https://img.shields.io/badge/Swedish_(understanding,_basic_speaking)-006AA7?style=flat-square)
 
 ## 🎬 MadMDL demo
 
@@ -110,6 +109,18 @@ AI engineer who takes AI from prototype into daily use and measures whether it w
 
 Qwen3.6-35B-A3B leads Qwen3-Coder-30B-A3B by **+7.4 points (95% CI +0.6 to +14.7)**. The 7B's held-out set is only 10 tasks, so that gain is directional.
 
+![Pass rate on 79 shared tasks, Wilson 95% CIs](assets/madmdl_eval_pass_rate.png)
+
+*Qwen3.6-35B-A3B 90.3% vs Qwen3-Coder-30B-A3B 82.9%, Wilson 95% CIs.*
+
+![Per-task outcomes, 65 / 6 / 2 / 6](assets/madmdl_eval_per_task.png)
+
+*Per-task outcome: 65 both pass, 6 only Qwen3.6, 2 only Qwen3-Coder, 6 neither.*
+
+![madmdl-7b vs its base](assets/madmdl_7b_vs_base.png)
+
+*madmdl-7b vs base: 38/60 vs 21/60, held-out 4/10 vs 2/10.*
+
 ## 🚀 Other projects
 
 | | |
@@ -124,24 +135,6 @@ Qwen3.6-35B-A3B leads Qwen3-Coder-30B-A3B by **+7.4 points (95% CI +0.6 to +14.7
 
 ![Contributions (last year)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fveetihietasalo%3Fy%3Dlast&query=%24.total.lastYear&label=Contributions%20(last%20year)&color=2EA44F&style=flat-square&logo=github)
 
-<!-- Activity graph: the official github-readme-activity-graph.vercel.app instance returns HTTP 402 (Nov 2026),
-     so this points at a working public mirror of the same project. Swap to your own Vercel deployment when possible. -->
-[![Activity graph, last 31 days](https://github-readme-activity-graph-two.vercel.app/graph?username=veetihietasalo&days=31&theme=github-compact&hide_border=true)](https://github.com/veetihietasalo)
-
 [![GitHub streak](https://streak-stats.demolab.com/?user=veetihietasalo&hide_border=true)](https://git.io/streak-stats)
 
-<p>
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=veetihietasalo&theme=github" alt="GitHub stats" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=veetihietasalo&theme=github" alt="Top languages" />
-</p>
-
-<!-- github-readme-stats: the public github-readme-stats.vercel.app instance returns HTTP 503 (Nov 2026).
-     To count private commits/languages, deploy your own copy on Vercel with a PAT_1 token (repo + read:user)
-     and replace YOUR-DEPLOYMENT below, then use these instead of the summary cards above:
-<img height="165" src="https://YOUR-DEPLOYMENT.vercel.app/api?username=veetihietasalo&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="GitHub stats" />
-<img height="165" src="https://YOUR-DEPLOYMENT.vercel.app/api/top-langs/?username=veetihietasalo&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
--->
-
-<sub>Contribution count, activity graph and streak include private contributions; the stats and language cards cover public repositories only.</sub>
-
-I build with coding agents (Claude Code): I set the direction, design the evaluations and check the measurements.
+<sub>Contribution count and streak include private contributions.</sub>
