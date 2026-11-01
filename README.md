@@ -3,7 +3,7 @@
 
   Contribution cards: for private work to show up, the GitHub setting
   Settings > Public profile > Contributions & activity > "Include private contributions on my profile"
-  MUST be turned on. With it on, the streak card and the contributions badge count
+  MUST be turned on. With it on, the streak card, the contribution calendar and the contributions badge count
   private contributions (as anonymous counts; no private repo names or code are exposed).
 -->
 
@@ -133,8 +133,12 @@ Qwen3.6-35B-A3B leads Qwen3-Coder-30B-A3B by **+7.4 points (95% CI +0.6 to +14.7
 
 <!-- Requires "Include private contributions on my profile" to be ON for private work to be counted. -->
 
+### Contributions in the last year
+
 ![Contributions (last year)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fveetihietasalo%3Fy%3Dlast&query=%24.total.lastYear&label=Contributions%20(last%20year)&color=2EA44F&style=flat-square&logo=github)
+
+[![Contributions in the last year](https://ghchart.rshah.org/veetihietasalo)](https://github.com/veetihietasalo)
 
 [![GitHub streak](https://streak-stats.demolab.com/?user=veetihietasalo&hide_border=true)](https://git.io/streak-stats)
 
-<sub>Contribution count and streak include private contributions.</sub>
+<sub>Contribution count, calendar and streak include private contributions as anonymous counts when that setting is on.</sub>
