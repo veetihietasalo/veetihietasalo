@@ -33,58 +33,42 @@ I build with coding agents AND MYSELF: I set the direction, design the evaluatio
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-**AI / ML & LLM**
+**AI / ML**
 
-![LLM applications](https://img.shields.io/badge/LLM_applications-412991?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-retrieval--augmented_generation-5A29E4?style=flat-square)
-![LoRA / QLoRA](https://img.shields.io/badge/LoRA_%2F_QLoRA-fine--tuning_incl._MoE-FF6F00?style=flat-square)
-![Evaluation design](https://img.shields.io/badge/Evaluation_design-hidden_tests_%2B_CIs-0E8A16?style=flat-square)
-![Conformal prediction](https://img.shields.io/badge/Conformal_prediction-6E40C9?style=flat-square)
-![Qwen](https://img.shields.io/badge/Qwen-open--weights-615CED?style=flat-square)
-![TimesFM](https://img.shields.io/badge/TimesFM-zero--shot_forecasting-4285F4?style=flat-square&logo=google&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
 
 **Frameworks**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square&logo=openapiinitiative&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square)
 
 **Cloud & Data**
 
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=icloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square)
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![NVIDIA A100](https://img.shields.io/badge/NVIDIA_A100_80GB-rented_GPUs-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 **Tools / DevOps**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 ![ThreadSanitizer](https://img.shields.io/badge/ThreadSanitizer-tested-555555?style=flat-square&logo=llvm&logoColor=white)
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js,java,cpp,react,express,bun,spring,mongodb,kafka,azure,aws,docker,git,github,cmake&perline=17" alt="Skill icons" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,ts,js,java,cpp,react,express,bun,spring,azure,git,github,cmake&perline=14" alt="Skill icons" />
 </p>
-
-**Certifications**
-
-![Anthropic Claude Code in Action](https://img.shields.io/badge/Anthropic-Claude_Code_in_Action_(2026)-191919?style=flat-square&logo=anthropic&logoColor=white)
-![Anthropic AI Fluency](https://img.shields.io/badge/Anthropic-AI_Fluency-191919?style=flat-square&logo=anthropic&logoColor=white)
 
 **Spoken languages**
 
