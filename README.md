@@ -22,11 +22,11 @@ Mad Maps is the main product: buildings, plots, zoning plans and building permit
 
 MadMDL is my local coding agent: an own tool-use harness, a hidden-test eval suite run over several seeds, and a fine-tuning pipeline. The repo is private, demo on request.
 
-Latest work: a 27B model running entirely on one 12 GB RTX 5070. To get all 66 layers of Qwen3.8-27B onto the card, I rebuilt its MTP draft head myself, from 6-bit down to 4-bit (IQ4_XS, 117 MiB smaller, same text at temperature 0), and patched llama.cpp's CUDA backend to cut memory use (chunked dequantize, smaller cuBLAS workspace). It runs at up to 83 tok/s, against 43.6 tok/s without the draft head.
+Latest work: a 27B model running entirely on one 12 GB RTX 5070. To get all 66 layers of Qwen3.8-27B onto the card, I rebuilt its MTP draft head myself, from 6-bit down to 4-bit (IQ4_XS, 117 MiB smaller, same text at temperature 0), and patched llama.cpp's CUDA backend to cut memory use (chunked dequantize, smaller cuBLAS workspace). It generates at 82.3 tok/s, against 43.6 tok/s without the draft head.
 
 | What | Result |
 | :--- | :--- |
-| Serving | 14K context, all 66 layers on the GPU, 72 to 83 tok/s across the eval runs: 78.8 with thinking low, 83.4 with thinking off (43.6 tok/s without the draft head) |
+| Serving | 14K context, all 66 layers on the GPU, 82.3 tok/s on a single request. Whole-run averages: 78.8 with thinking low, 83.4 with thinking off (43.6 tok/s without the draft head) |
 | Eval, thinking low | 99/102 runs, 97.1% (34 tasks × 3 seeds) |
 | Eval, thinking off | 92/102 runs, 90.2%, about 30% less wall-clock |
 | Held-out tasks | 24/25 |
