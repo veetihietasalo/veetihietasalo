@@ -1,128 +1,47 @@
-<!--
-  DRAFT, not committed. Profile README for github.com/veetihietasalo/veetihietasalo.
+# Veeti Hietasalo
 
-  Contribution cards: for private work to show up, the GitHub setting
-  Settings > Public profile > Contributions & activity > "Include private contributions on my profile"
-  MUST be turned on. With it on, the streak card, the contribution calendar and the contributions badge count
-  private contributions (as anonymous counts; no private repo names or code are exposed).
--->
+AI engineer, founder of Mad Tech Oy. Espoo, Finland.
 
-# Hi, I'm Veeti Hietasalo 👋
+[mad3d.ai](https://mad3d.ai) · [LinkedIn](https://www.linkedin.com/in/vvvhietasalo/) · [Email](mailto:veeti.hietasalo@gmail.com)
 
-**AI Engineer · LLM applications · Applied machine learning** · Espoo, Finland
+I take AI from prototype into daily use and measure whether it works. I build with coding agents: I set the direction, design the evaluations and check the measurements.
 
-[![Email](https://img.shields.io/badge/Email-veeti.hietasalo%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeti.hietasalo@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vvvhietasalo-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/vvvhietasalo/)
-[![GitHub](https://img.shields.io/badge/GitHub-veetihietasalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/veetihietasalo)
-[![Website](https://img.shields.io/badge/Web-mad3d.ai-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mad3d.ai)
+Open to AI/ML roles in Finland, Amsterdam, Stockholm and London. EU citizen. Mad Tech Oy is an NVIDIA Inception member.
 
-![Open to AI/ML roles](https://img.shields.io/badge/Open_to_AI%2FML_roles-Finland_%C2%B7_Amsterdam_%C2%B7_Stockholm_%C2%B7_London-2EA44F?style=flat-square&logo=handshake&logoColor=white)
-![EU citizen](https://img.shields.io/badge/EU_citizen-003399?style=flat-square&logo=europeanunion&logoColor=FFCC00)
-![Founder Mad Tech Oy](https://img.shields.io/badge/Founder-Mad_Tech_Oy-111111?style=flat-square)
-![NVIDIA Inception](https://img.shields.io/badge/NVIDIA_Inception-Member_(Mad_Tech_Oy)-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Profile views](https://komarev.com/ghpvc/?username=veetihietasalo&style=flat-square&color=blue&label=Profile+views)
+## Mad 3D
 
-AI engineer who takes AI from prototype into daily use and measures whether it works: LLM and RAG applications, open-weights coding models fine-tuned with LoRA / QLoRA (including mixture-of-experts), and valuation models with calibrated uncertainty.
+[![Mad Maps, Espoo example map](assets/mad-maps.png)](https://maps.mad3d.ai/esimerkki)
 
-I build with coding agents AND MYSELF: I set the direction, design the evaluations and check the measurements.
+Mad Maps is the main product: buildings, plots, zoning plans and building permits on one map, built from open public data. It is in closed beta, access by invitation. The [example map](https://maps.mad3d.ai/esimerkki) is open.
 
-## 🧰 Skills
+- On the map now: 151,173 buildings, 100,738 plots, 8,365 zoning plans and 158,794 building permits in Espoo, Helsinki, Vantaa and Kauniainen ([coverage file](https://maps.mad3d.ai/kattavuus.json), 2026-11-06).
+- The assistant answers questions over this data. The model picks the facts and code does the arithmetic. An answer with a number that is not in the source facts is rejected before it reaches the user.
+- Built with TypeScript, MapLibre GL, PMTiles, Postgres and Vercel. The assistant runs on the Anthropic API and is also served over MCP.
 
-**Languages**
+## MadMDL: a local coding model
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+MadMDL is my local coding agent: an own tool-use harness, a hidden-test eval suite run over several seeds, and a fine-tuning pipeline. The repo is private, demo on request.
 
-**AI / ML**
+Latest work is Qwen3.8-27B on one RTX 5070 (12 GB), a 3-bit quant with its MTP draft head on a locally patched llama.cpp.
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-**Frameworks**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square)
-
-**Cloud & Data**
-
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square)
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square)
-
-**Tools / DevOps**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![ThreadSanitizer](https://img.shields.io/badge/ThreadSanitizer-tested-555555?style=flat-square&logo=llvm&logoColor=white)
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,ts,js,java,cpp,react,express,bun,spring,azure,git,github,cmake&perline=14" alt="Skill icons" />
-</p>
-
-**Spoken languages**
-
-![Finnish](https://img.shields.io/badge/Finnish-native-003580?style=flat-square)
-![English](https://img.shields.io/badge/English-full_professional-012169?style=flat-square)
-![Swedish (understanding, basic speaking)](https://img.shields.io/badge/Swedish_(understanding,_basic_speaking)-006AA7?style=flat-square)
-
-## 🎬 MadMDL demo
-
-[![MadMDL demo](assets/madmdl_demo_thumb.png)](https://github.com/veetihietasalo/veetihietasalo/blob/master/assets/madmdl_demo.mp4)
-
-**MadMDL**: a local AI coding agent and fine-tuning pipeline. Own tool-use harness, a hidden-test eval suite run over several seeds with confidence intervals, and LoRA / QLoRA fine-tunes on verified agent trajectories.
-▶️ [Watch the demo (2:05)](https://github.com/veetihietasalo/veetihietasalo/blob/master/assets/madmdl_demo.mp4)
-
-*Demo segment is a labelled replay of a logged run; repo is private, demo on request.*
-
-| Model | Setup | Result |
-| :--- | :--- | :--- |
-| Qwen3.6-35B-A3B (MoE) | 79 shared tasks × 3 seeds | **214/237 runs, 90.3%** |
-| Qwen3-Coder-30B-A3B (MoE) | same 79 tasks × 2 seeds | 131/158 runs, 82.9% |
-| **madmdl-7b**, QLoRA fine-tune of Qwen2.5-Coder-7B | 60-task acceptance suite vs. its base | **38/60 vs 21/60**; held out 4/10 vs 2/10 |
-
-Qwen3.6-35B-A3B leads Qwen3-Coder-30B-A3B by **+7.4 points (95% CI +0.6 to +14.7)**. The 7B's held-out set is only 10 tasks, so that gain is directional.
-
-![Pass rate on 79 shared tasks, Wilson 95% CIs](assets/madmdl_eval_pass_rate.png)
-
-*Qwen3.6-35B-A3B 90.3% vs Qwen3-Coder-30B-A3B 82.9%, Wilson 95% CIs.*
-
-![Per-task outcomes, 65 / 6 / 2 / 6](assets/madmdl_eval_per_task.png)
-
-*Per-task outcome: 65 both pass, 6 only Qwen3.6, 2 only Qwen3-Coder, 6 neither.*
-
-![madmdl-7b vs its base](assets/madmdl_7b_vs_base.png)
-
-*madmdl-7b vs base: 38/60 vs 21/60, held-out 4/10 vs 2/10.*
-
-## 🚀 Other projects
-
-| | |
+| What | Result |
 | :--- | :--- |
-| [MiniHFT](https://github.com/veetihietasalo/MiniHFT) | Educational C++20: replays a full NASDAQ ITCH 5.0 trading day (268.7M messages) into an order-by-order book in about 90 s; lock-free queue at 50 ns median per hop, checked with ThreadSanitizer |
-| [MonteCarloCpp](https://github.com/veetihietasalo/MonteCarloCpp) | Monte Carlo option pricer in C++20, multithreaded, with a CUDA path |
-| [OptionsPricing](https://github.com/veetihietasalo/OptionsPricing) | Black-Scholes pricer with all five Greeks. TypeScript, Bun, Express and React |
+| Serving | 14K context, all 66 layers on the GPU, 72 to 79 tok/s in the eval runs (43.6 tok/s without the draft head) |
+| Eval, thinking low | 99/102 runs, 97.1% (34 tasks × 3 seeds) |
+| Eval, thinking off | 92/102 runs, 90.2%, about 30% less wall-clock |
+| Held-out tasks | 24/25 |
+| Fine-tune | LoRA r=16 on a rented H200: 358 rows the model generated itself, 2 epochs, eval loss 0.226 |
 
-## 📊 GitHub activity
+Thinking off is 6.9 points lower (95% CI -14.4 to +0.1), which is inside the noise at 3 seeds.
 
-<!-- Requires "Include private contributions on my profile" to be ON for private work to be counted. -->
+[Demo of the harness (2:05)](https://github.com/veetihietasalo/veetihietasalo/blob/master/assets/madmdl_demo.mp4), a labelled replay of a logged run on an earlier model.
 
-### Contributions in the last year
+## Other projects
 
-![Contributions (last year)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fveetihietasalo%3Fy%3Dlast&query=%24.total.lastYear&label=Contributions%20(last%20year)&color=2EA44F&style=flat-square&logo=github)
+- [MiniHFT](https://github.com/veetihietasalo/MiniHFT): educational C++20. Replays a full NASDAQ ITCH 5.0 trading day (268.7M messages) into an order-by-order book in about 90 s. Lock-free queue at 50 ns median per hop, checked with ThreadSanitizer.
+- [MonteCarloCpp](https://github.com/veetihietasalo/MonteCarloCpp): Monte Carlo option pricer in C++20, multithreaded, with a CUDA path.
+- [OptionsPricing](https://github.com/veetihietasalo/OptionsPricing): Black-Scholes pricer with all five Greeks. TypeScript, Bun, Express and React.
 
-[![Contributions in the last year](https://ghchart.rshah.org/veetihietasalo)](https://github.com/veetihietasalo)
+## Skills
 
-[![GitHub streak](https://streak-stats.demolab.com/?user=veetihietasalo&hide_border=true)](https://git.io/streak-stats)
-
-<sub>Contribution count, calendar and streak include private contributions as anonymous counts when that setting is on.</sub>
+Python, TypeScript, C++20, SQL · PyTorch, LoRA fine-tuning, llama.cpp, eval design · React, Postgres, Vercel · Finnish (native), English (professional), Swedish (basic)
