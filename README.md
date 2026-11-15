@@ -22,7 +22,7 @@ Mad Maps is the main product: buildings, plots, zoning plans and building permit
 
 MadMDL is my local coding agent: an own tool-use harness, a hidden-test eval suite run over several seeds, and a fine-tuning pipeline. The repo is private, demo on request.
 
-Latest work is Qwen3.8-27B on one RTX 5070 (12 GB), a 3-bit quant with its MTP draft head on a locally patched llama.cpp.
+Latest work is getting Qwen3.8-27B onto one RTX 5070 (12 GB). I derived a smaller MTP draft head for the 3-bit quant (requantized Q6_K to IQ4_XS) and patched only llama.cpp's CUDA backend (chunked dequantize, smaller cuBLAS workspace), so all 66 layers run on the card.
 
 | What | Result |
 | :--- | :--- |
