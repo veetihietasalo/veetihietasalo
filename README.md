@@ -10,8 +10,6 @@ Open to AI/ML roles in Finland, Amsterdam, Stockholm and London. EU citizen. Mad
 
 ## Mad 3D
 
-[![Mad Maps, Espoo example map](assets/mad-maps.png)](https://maps.mad3d.ai/esimerkki)
-
 Mad Maps is the main product: buildings, plots, zoning plans and building permits on one map, built from open public data. It is in closed beta, access by invitation. The [example map](https://maps.mad3d.ai/esimerkki) is open.
 
 - On the map now: 151,173 buildings, 100,738 plots, 8,365 zoning plans and 158,794 building permits in Espoo, Helsinki, Vantaa and Kauniainen ([coverage file](https://maps.mad3d.ai/kattavuus.json), 2026-11-06).
